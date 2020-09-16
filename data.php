@@ -23,13 +23,15 @@ $data_siswa=[
     "khoirudin"=>["Khoirudin","Sukorejo","05/09/2003",false],
 ];
 
-foreach($data_siswa as $k=>$v)
-{
-    if($v[3])
-    {
-        echo "$v[0] \t sudah lulus \n";
-    }else{
-        echo "$v[0] \t belum lulus \n";
-    }
-    // echo $v[0]."\n";
-}
+$data_slider=["asset/images/slider/slider-1.jpeg","asset/images/slider/slider-2.jpeg","asset/images/slider/slider-3.jpeg"];
+
+// foreach($data_siswa as $k=>$v)
+// {
+//     if($v[3])
+//     {
+//         echo "$v[0] \t sudah lulus \n";
+//     }else{
+//         echo "$v[0] \t belum lulus \n";
+//     }
+//     // echo $v[0]."\n";
+// }
